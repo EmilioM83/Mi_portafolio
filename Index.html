@@ -3,22 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emilio Mayer - Desarrollo de software</title>
+    <title>Emilio Mayer - Portfolio</title>
 
 </head>
 <body>
-    <h1 align="center"><b>Emilio Mayer</b></h1>
-    <h2 align="center"><i>Desarrollador de software</i></h2>
-
-    <br><pre align="center"><a href="Index.html">Sobre mi</a>           <a href="Habilidades.html">Habilidades</a>           <a href="Proyectos.html">Proyectos</a>            <a href="Portafolio.html">Portafolio</a>         <a href="Contacto.html">Contacto</a></pre>
-    <br><br>
-        <img src="imagenes/Mi-foto.jpg" align="left" alt="Emilio Mayer" hspace="20">
-        
-        <h3 align="left"><b>Sobre mi..</b></h3>
-        <p align="left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo saepe placeat ab dolor,<br>
-        nam expedita beatae consectetur. Consectetur, voluptatum nihil! Natus similique numquam<br>
-        repellat placeat porro, pariatur dignissimos voluptas quos.</p>
-    
-
+<!--Esta es a seccion para el header-->
+<header class="header">
+    <div class="header-wrapper">
+        <div class="header-logo">
+            <img src="imagenes/logo.png" alt="Logo portfolio" height="50px"/>
+        </div>
+        <nav class="header-menu">
+            <ul class="header-menu-wraper">
+                <li class="header-menu-item">
+                    <a href="Index.html" class="header-menu-link">Sobre mi</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="Habilidades.html" class="header-menu-link">Habilidades</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="Portafolio.html" class="header-menu-link">Portfolio</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="Contacto.html" class="header-menu-link">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!--Esta es la seccion para la portada
+El fondo sera agreagado con CSS-->   
+<section class="cover">
+    <div class="cover-wraper">
+        <div class="cover-photo-container">
+            <img src="imagenes/Mi-foto.jpg" alt="Emilio Mayer" height="200px" class="cover-photo">
+        </div>
+        <div class="cover-texto">
+            <h1 class="cover-title">Emilio Mayer</h1>
+            <h2 class="cover-sub-title">Desarrollo de software</h2>
+        </div>
+    </div>
+</section>
+<!--Esta es la seccion para la informacion sobre mi-->
+<section class="aboutme">
+    <header>
+        <h1 class="title-underline">
+            <span>Sobre mi</span>
+        </h1>
+    </header>
+    <div class="cover-description">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam fringilla venenatis. 
+            Cras interdum arcu vel neque convallis, vel consequat eros lobortis. Fusce et libero ut purus 
+            interdum tristique eget a dui. Morbi vitae nunc finibus, faucibus turpis ac, gravida enim. 
+            Aenean vitae sem facilisis, imperdiet dui et, tempor diam. Vivamus et euismod sapien. Etiam a dui ligula. 
+            Morbi convallis luctus varius. Etiam mauris quam, aliquam sit amet placerat quis, gravida ut enim. 
+            Morbi eget mattis ante. Vivamus ac massa enim. Morbi in justo id dolor egestas molestie sit amet at lorem. 
+            Donec vehicula, orci sed consectetur sagittis, erat massa consectetur velit, a facilisis lectus massa id lacus. 
+            Nullam sed dolor porta, ullamcorper mi non, vestibulum leo. Donec a posuere eros, quis vehicula turpis. 
+            Ut eget aliquam ante.
+        </p>
+        <br>
+        <p>
+            Aliquam erat volutpat. Ut nec neque a neque maximus volutpat. Praesent quis gravida magna. Curabitur sem mauris, 
+            llamcorper et congue sit amet, viverra in est. Cras tempus id sem sed mattis. Lorem ipsum dolor sit amet, 
+            consectetur adipiscing elit. Vestibulum sem velit, placerat eu ipsum accumsan, commodo hendrerit lorem. 
+            Proin tempus enim non cursus viverra. Mauris hendrerit nibh ut est blandit molestie. Suspendisse eget tortor 
+            eget dolor euismod tincidunt. Ut sem magna, porttitor vel ultricies a, sagittis ac nibh. Nam vitae neque ligula. 
+            Quisque in ipsum condimentum, fringilla purus et, elementum odio. Duis cursus, risus et varius tristique, 
+            mauris magna suscipit diam, ac aliquet lacus nisl vitae sapien. Maecenas pellentesque, neque nec vulputate accumsan, 
+            felis arcu interdum ipsum, id sodales ligula leo et augue.
+        </p>
+        <div class="text-center">
+            <a href="mailto:emiliomayer54@gmail.com">Contactame</a>
+        </div>
+    </div>
+</section>
+<!--Esta es la seccion de habilidades-->
+<section class="skills">
+    <header>
+        <h1 class="title-underline">
+            <span>Habilidades</span>
+        </h1>
+    </header>
+    <ul class="style-wrapper">
+        <li class="skills-item">
+            <div class="skills-text">
+                <span class="skills-name">
+                    HTML
+                </span>
+                <span class="skills-score">
+                    70%
+                </span>
+            </div>
+        </li>
+    </ul>
+</section>
 </body>
 </html>
